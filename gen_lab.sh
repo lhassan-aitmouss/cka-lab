@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # KillerCoda CKA Scenario Launcher — SCENARIOS ONLY (no instructions/answers)
 # Usage:
-#   ./setup_scenario_only.sh <QNUM>
-#   ./setup_scenario_only.sh clean
+#   ./gen_lab.sh <QNUM>
+#   ./gen_lab.sh clean
 set -euo pipefail
 
 APPLY() { kubectl apply --validate=false -f -; }
