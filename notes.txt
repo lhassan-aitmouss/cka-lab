@@ -1,0 +1,8 @@
+
+
+chmod +x gen_lab.sh
+
+./gen_lab.sh 1
+
+
+
